@@ -1,0 +1,340 @@
+@font-face {
+  font-family: Socialico;
+  src: url(../socialico/socialico.ttf); }
+
+/* line 7, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+* {
+  margin: 0 auto;
+  padding: 0; }
+
+/* line 10, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+html {
+  font-size: 16px; }
+
+/* line 12, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+body {
+  font-family: "Arial", sans-serif;
+  width: 100%;
+  max-width: 1280px; }
+
+/* line 16, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.container {
+  padding: 3rem 3rem; }
+
+/* line 18, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.heading_midi {
+  font: 400 30px/1.2 Arial;
+  color: #445152;
+  text-align: center;
+  padding-bottom: 2rem; }
+
+/* line 24, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.button {
+  align-self: center;
+  align-items: center;
+  line-height: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  font: 700 18px/2 Arial;
+  color: #445161;
+  background: #ffffff;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none; }
+  /* line 38, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .button:hover {
+    background: #f5f5f5; }
+  /* line 40, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .button:focus {
+    outline: 1px solid #ffffff;
+    outline-offset: 0px; }
+
+/* line 44, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.header {
+  background-color: #445161;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  /* line 49, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .header__heading {
+    color: #ffffff;
+    font: 400 60px/1.2 Arial;
+    padding-bottom: 2rem; }
+  /* line 53, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .header__item {
+    color: #ffffff;
+    font: 400 20px/1.8 Arial;
+    list-style: circle inside url(../icons/check_icon_349.png); }
+
+/* line 58, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.aboutproduct {
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0; }
+  /* line 64, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .aboutproduct__box {
+    width: 50%;
+    text-align: left;
+    margin: 0; }
+  /* line 68, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .aboutproduct__heading {
+    text-align: left; }
+  /* line 70, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .aboutproduct__text {
+    padding-bottom: 2rem; }
+  /* line 72, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .aboutproduct__image_432x248 {
+    width: 432px;
+    height: 248px; }
+
+/* line 76, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.pluses {
+  background-color: #f5f5f5; }
+  /* line 78, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .pluses__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none outside; }
+  /* line 86, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .pluses__item-text {
+    margin: 0;
+    padding: 0 0 0 46px;
+    position: relative; }
+  /* line 90, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .pluses__item {
+    width: 45%;
+    margin-bottom: 2em; }
+  /* line 93, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .pluses__item-text:before {
+    content: "+";
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 0;
+    left: 5px; }
+
+/* line 106, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.screenshots {
+  background-color: #ffffff; }
+  /* line 108, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .screenshots__box {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0; }
+
+/* line 115, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.screenshot {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  width: 45%;
+  margin-bottom: 1rem;
+  padding: 0; }
+  /* line 122, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .screenshot__text-box {
+    margin-left: 1rem; }
+  /* line 124, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .screenshot__image_202x153 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0.5em;
+    padding: 0; }
+  /* line 129, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .screenshot__heading {
+    font: 400 24px/30px Arial;
+    color: #445152; }
+
+/* line 135, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.reviews {
+  background-color: #f5f5f5; }
+  /* line 137, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .reviews__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none outside; }
+  /* line 145, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .reviews__item {
+    background: url(../img/bg_review_190.png) no-repeat top right;
+    position: relative;
+    width: 483px;
+    height: 121px;
+    margin: 0px;
+    padding: 10px; }
+  /* line 152, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .reviews__item:before {
+    content: url(../img/userpic_176.svg);
+    position: absolute;
+    top: 0;
+    left: -60px; }
+  /* line 157, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .reviews__text {
+    font: italic 400 14px/1.29 Arial;
+    margin-left: 2rem;
+    margin-bottom: 1rem; }
+  /* line 161, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .reviews__figcaption {
+    font: 400 14px/1.29 Arial;
+    color: #989898;
+    margin-left: 2rem; }
+
+/* line 166, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.prices {
+  background-color: #ffffff; }
+  /* line 168, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .prices__box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end; }
+  /* line 173, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .prices__card {
+    width: 300px;
+    background-color: #445161;
+    border: 1px solid;
+    border-radius: 5px; }
+    /* line 178, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+    .prices__card-heading {
+      font: 400 24px/30px Arial;
+      color: #ffffff;
+      text-align: center;
+      margin: 12px 12px; }
+    /* line 183, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+    .prices__card-heading-price {
+      font: 400 40px/1.75 Arial;
+      color: #445161;
+      background-color: #ffffff;
+      text-align: center; }
+    /* line 188, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+    .prices__card-list {
+      list-style-position: inside;
+      color: #ffffff;
+      margin: 10px 20px;
+      font: 400 14px/1.71 Arial; }
+    /* line 193, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+    .prices__card-button {
+      width: 260px;
+      margin: 10px 20px 20px; }
+
+/* line 198, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.footer {
+  background-color: #445161; }
+  /* line 200, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__heading {
+    font: 400 30px/1.2 Arial;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1rem; }
+  /* line 205, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item {
+    color: #ffffff;
+    font: 400 20px/1.8 Arial; }
+  /* line 208, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+  /* line 212, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__form {
+    margin: 0 4rem;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center; }
+    /* line 219, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+    .footer__form input, .footer__form textarea {
+      border-radius: 5px;
+      width: 500px;
+      padding: 10px;
+      font: 400 16px/1.5 Arial;
+      margin-bottom: 1em; }
+      /* line 225, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+      .footer__form input:focus, .footer__form textarea:focus {
+        outline: 1px solid #ffffff;
+        outline-offset: 0px; }
+  /* line 228, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__form-submit {
+    font-size: 16px;
+    padding: 0 50px; }
+  /* line 231, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  /* line 235, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item_skype:before {
+    content: url(../icons/skype_icon_319.png);
+    margin-right: 0.5em; }
+  /* line 238, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item_icq:before {
+    content: url(../icons/icq_icon_324.png);
+    margin-right: 0.5em; }
+  /* line 241, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item_mail:before {
+    content: url(../icons/email_icon_332.png);
+    margin-right: 0.5em; }
+  /* line 244, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item_tel:before {
+    content: url(../icons/phone_icon_337.png);
+    margin-right: 0.5em; }
+  /* line 247, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item_socials {
+    font-family: "Socialico";
+    font: 400 60px/0.4 Socialico;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-top: 0.5em;
+    text-decoration: none;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+  /* line 258, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item a[href*="#"]:link {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer; }
+  /* line 262, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item a:visited {
+    text-decoration: none;
+    color: #989898; }
+  /* line 265, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item a:hover {
+    text-decoration: none;
+    color: #ffffff; }
+  /* line 268, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item_socials:hover {
+    -o-transform: translate(-20px, 20px);
+      -o-transform--ms-transform: translate(-20px, 20px);
+      -o-transform--moz-transform: translate(-20px, 20px);
+      -o-transform--webkit-transform: translate(-20px, 20px);
+      -o-transform-transform: translate(-20px, 20px); }
+  /* line 274, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+  .footer__list-item a:active {
+    text-decoration: none;
+    color: #f5f5f5; }
+
+/* line 279, ../../Users/chill/Desktop/Geekbrains/HTML5&CSS3/SiteProject/styles/style.sass */
+.copyright {
+  background-color: #ffffff;
+  text-align: center;
+  font: 12px/2 Arial; }
+
+/*# sourceMappingURL=style.css.map */
